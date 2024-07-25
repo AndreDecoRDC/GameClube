@@ -69,17 +69,152 @@ nav{
 
 }
 footer{
+
     background-color: rgb(15, 0, 17);
     display: flex;
-    margin-top: 60%;
     font-family: "Roboto", sans-serif;
     font-weight: 100;
     padding: 5px;
     height: 20%;
+
 }
 #crd{
+
     color: rgb(255, 255, 255);
+
 }
 #crd:hover{
+
     color: aqua;
+
 }
+#psprodutos{
+
+    font-family: "Roboto", sans-serif;
+    color: white;
+    margin: 60px;
+    margin-top: 50px;
+
+}
+#psprodutos > h1{
+
+    font-weight: 500;
+
+}
+#gow > img{
+
+    width: 350px;
+    
+
+}
+#gow{
+
+    left: 200px;
+    position: relative;
+    top: 160px;
+    width: 350px;
+    border: solid 4px white;
+    background-color: rgb(49, 49, 49);
+    border-radius: 24px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 05px 15px;
+    height: 410px;
+
+}
+#gow > p{
+
+    position: absolute;
+    left: 55px;
+
+}
+#hell > img{
+
+    width: 360px;
+    top: 18px;
+    position: relative;
+    left: -2px;
+
+}
+#hell{
+
+    left: 700px;
+    position: relative;
+    top: -255px;
+    width: 350px;
+    border: solid 4px white;
+    background-color: rgb(49, 49, 49);
+    border-radius: 24px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 05px 15px;
+    height: 410px;
+
+
+}
+#hell > p{
+
+    position: absolute;
+    left: 90px;
+    top: 410px
+
+}
+#gow:hover{
+
+    cursor: pointer;
+
+}
+#hell:hover{
+
+    cursor: pointer;
+
+}
+#tlou:hover{
+
+    cursor: pointer;
+
+}
+#tlou > img{
+
+    width: 285px;
+    top: 5px;
+    position: relative;
+    left: 35px;
+
+}
+#tlou{
+
+    left: 1200px;
+    position: relative;
+    top: -670px;
+    width: 350px;
+    border: solid 4px white;
+    background-color: rgb(49, 49, 49);
+    border-radius: 24px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 05px 15px;
+    height: 410px;
+
+
+}
+#tlou > p{
+
+    position: absolute;
+    left: 65px;
+    top: 410px
+
+}
+#tlou:active{
+
+    top: -672px;
+    left: 1202px;
+
+}
+#gow:active{
+
+    top: 158px;
+    left: 203px;
+
+}
+#hell:active{
+
+    top: -257px;
+    left: 702px;
+
+}
+
