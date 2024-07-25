@@ -18,7 +18,7 @@ header{
     width: 100px;
 
 }
-navigation{
+nav{
 
     display: flex;
 
@@ -41,7 +41,7 @@ navigation{
 
     width: 50px;
 
-    position: fixed;
+    position: absolute;
 
     left: 34%;
 
@@ -50,7 +50,7 @@ navigation{
 
     width: 40px;
 
-    position: fixed;
+    position: absolute;
 
     left: 49%;
 
@@ -61,10 +61,25 @@ navigation{
 
     width: 50px;
 
-    position: fixed;
+    position: absolute;
 
     left: 64%;
 
     top: 130px;
 
+}
+footer{
+    background-color: rgb(15, 0, 17);
+    display: flex;
+    margin-top: 60%;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    padding: 5px;
+    height: 20%;
+}
+#crd{
+    color: rgb(255, 255, 255);
+}
+#crd:hover{
+    color: aqua;
 }
