@@ -1,0 +1,70 @@
+body{
+
+    background-color: rgb(20, 20, 20);
+
+}
+header{
+
+    text-align: center;
+
+    background-color: rgb(15, 0, 17);
+
+    padding-bottom: 20px;
+    padding-top: 20px;
+
+}
+#logo{
+
+    width: 100px;
+
+}
+navigation{
+
+    display: flex;
+
+    background-color: rgb(17, 0, 24);
+
+    justify-content: center;
+
+    height: 75px;
+
+
+}
+#consolist > li{
+
+    list-style: none;
+
+    display: inline;
+
+}
+#pslogo{
+
+    width: 50px;
+
+    position: fixed;
+
+    left: 34%;
+
+}
+#xboxlogo{
+
+    width: 40px;
+
+    position: fixed;
+
+    left: 49%;
+
+    top: 135px;
+
+}
+#ninlogo{
+
+    width: 50px;
+
+    position: fixed;
+
+    left: 64%;
+
+    top: 130px;
+
+}
