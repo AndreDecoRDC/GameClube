@@ -103,10 +103,10 @@ footer{
 }
 #gow > img{
 
-    width: 265px;
+    width: 275px;
     top: 25px;
     position: relative;
-    left: 43px;
+    left: 40px;
     box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
 
 
@@ -239,6 +239,123 @@ footer{
 
     font-family: "Roboto", sans-serif;
     color: white;
+
+}
+#re4:hover{
+
+    cursor: pointer;
+
+}
+#re4 > img{
+
+    width: 275px;
+    top: 25px;
+    position: relative;
+    left: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
+
+}
+#re4{
+
+    left: 200px;
+    position: relative;
+    top: -530px;
+    width: 350px;
+    border: solid 4px rgb(49, 49, 49);
+    background-color: white;
+    border-radius: 24px;
+    height: 410px;
+
+}
+#re4 > p{
+
+    position: absolute;
+    left: 82px;
+    top: 410px
+
+}
+#re4:active{
+
+    top: -532px;
+    left: 202px;
+
+}
+#sm2:hover{
+
+    cursor: pointer;
+
+}
+#sm2 > img{
+
+    width: 275px;
+    top: 25px;
+    position: relative;
+    left: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
+
+}
+#sm2{
+
+    left: 700px;
+    position: relative;
+    top: -948px;
+    width: 350px;
+    border: solid 4px rgb(49, 49, 49);
+    background-color: white;
+    border-radius: 24px;
+    height: 410px;
+
+}
+#sm2 > p{
+
+    position: absolute;
+    left: 63px;
+    top: 410px
+
+}
+#sm2:active{
+
+    top: -950px;
+    left: 702px;
+
+}
+#er:hover{
+
+    cursor: pointer;
+
+}
+#er > img{
+
+    width: 275px;
+    top: 25px;
+    position: relative;
+    left: 40px;
+    box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
+
+}
+#er{
+
+    left: 1200px;
+    position: relative;
+    top: -1363px;
+    width: 350px;
+    border: solid 4px rgb(49, 49, 49);
+    background-color: white;
+    border-radius: 24px;
+    height: 410px;
+
+}
+#er > p{
+
+    position: absolute;
+    left: 100px;
+    top: 410px
+
+}
+#er:active{
+
+    top: -950px;
+    left: 702px;
 
 }
 
