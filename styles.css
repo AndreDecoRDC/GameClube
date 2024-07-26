@@ -10,6 +10,7 @@ header{
     background-color: rgb(15, 0, 17);
 
     padding-bottom: 20px;
+    
     padding-top: 20px;
 
 }
@@ -71,10 +72,15 @@ nav{
 footer{
 
     background-color: rgb(15, 0, 17);
+
     display: flex;
+
     font-family: "Roboto", sans-serif;
+
     font-weight: 100;
+
     padding: 5px;
+
     height: 20%;
 
 }
@@ -91,8 +97,11 @@ footer{
 #psprodutos{
 
     font-family: "Roboto", sans-serif;
+
     color: white;
+
     margin: 60px;
+
     margin-top: 50px;
 
 }
@@ -104,9 +113,13 @@ footer{
 #gow > img{
 
     width: 275px;
+
     top: 25px;
+
     position: relative;
+
     left: 40px;
+
     box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
 
 
@@ -114,11 +127,17 @@ footer{
 #gow{
 
     left: 200px;
+
     position: relative;
+
     top: 160px;
+
     width: 350px;
+
     border: solid 4px rgb(49, 49, 49);
+
     background-color: white;
+
     border-radius: 24px;
   
     height: 410px;
@@ -127,29 +146,43 @@ footer{
 #gow > p{
 
     position: absolute;
+
     left: 55px;
+
     top: 410px;
 
 }
 #hell > img{
 
     width: 275px;
+
     top: 25px;
+
     position: relative;
+
     left: 40px;
+
     box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
 
 }
 #hell{
 
     left: 700px;
+
     position: relative;
+
     top: -255px;
+
     width: 350px;
+
     border: solid 4px rgb(49, 49, 49);
+
     background-color: white;
+
     border-radius: 24px;
+
     box-shadow: rgba(0, 0, 0, 0.35) 0px 05px 15px;
+
     height: 410px;
 
 
@@ -157,7 +190,9 @@ footer{
 #hell > p{
 
     position: absolute;
+
     left: 90px;
+
     top: 410px
 
 }
@@ -179,65 +214,91 @@ footer{
 #tlou > img{
 
     width: 275px;
+
     top: 25px;
+
     position: relative;
+
     left: 40px;
+
     box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
 
 }
 #tlou{
 
     left: 1200px;
+
     position: relative;
+
     top: -670px;
+
     width: 350px;
+
     border: solid 4px rgb(49, 49, 49);
+
     background-color: white;
+
     border-radius: 24px;
+
     height: 410px;
 
 }
 #tlou > p{
 
     position: absolute;
-    left: 65px;
-    top: 410px
 
+    left: 65px;
+
+    top: 410px
+    
 }
 #tlou:active{
 
     top: -672px;
+
     left: 1202px;
 
 }
 #gow:active{
 
     top: 158px;
+
     left: 203px;
 
 }
 #hell:active{
 
     top: -257px;
+
     left: 702px;
 
 }
 #criadores{
+
     font-family: "Roboto", sans-serif;
+
     color: white;
 }
 #empresas{
+
     font-family: "Roboto", sans-serif;
+
     color: white;
+
 }
 #criadores > img {
+
     width: 200px;
+
     padding-right: 20px;
+
     border-radius: 100%;
+
 }
 #fontes{
 
     font-family: "Roboto", sans-serif;
+
     color: white;
 
 }
@@ -249,34 +310,48 @@ footer{
 #re4 > img{
 
     width: 275px;
+
     top: 25px;
+
     position: relative;
+
     left: 40px;
+
     box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
 
 }
 #re4{
 
     left: 200px;
+
     position: relative;
+
     top: -530px;
+
     width: 350px;
+
     border: solid 4px rgb(49, 49, 49);
+
     background-color: white;
+
     border-radius: 24px;
+
     height: 410px;
 
 }
 #re4 > p{
 
     position: absolute;
+
     left: 82px;
+
     top: 410px
 
 }
 #re4:active{
 
     top: -532px;
+
     left: 202px;
 
 }
@@ -288,34 +363,48 @@ footer{
 #sm2 > img{
 
     width: 275px;
+
     top: 25px;
+
     position: relative;
+
     left: 40px;
+
     box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
 
 }
 #sm2{
 
     left: 700px;
+
     position: relative;
+
     top: -948px;
+
     width: 350px;
+
     border: solid 4px rgb(49, 49, 49);
+
     background-color: white;
+
     border-radius: 24px;
+
     height: 410px;
 
 }
 #sm2 > p{
 
     position: absolute;
+
     left: 63px;
+
     top: 410px
 
 }
 #sm2:active{
 
     top: -950px;
+
     left: 702px;
 
 }
@@ -327,34 +416,48 @@ footer{
 #er > img{
 
     width: 275px;
+
     top: 25px;
+
     position: relative;
+
     left: 40px;
+
     box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
 
 }
 #er{
 
     left: 1200px;
+
     position: relative;
+
     top: -1363px;
+
     width: 350px;
+
     border: solid 4px rgb(49, 49, 49);
+
     background-color: white;
+
     border-radius: 24px;
+
     height: 410px;
 
 }
 #er > p{
 
     position: absolute;
+
     left: 100px;
+
     top: 410px
 
 }
 #er:active{
 
     top: -1365px;
+
     left: 1202px;
 
 }
