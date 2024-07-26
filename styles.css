@@ -46,7 +46,7 @@ nav{
 
     top: 10%;
 
-    left: 42%;
+    left: 42.4%;
 
 }
 
@@ -74,7 +74,7 @@ nav > ul > li{
 
     position: relative;
 
-    left: 11px;
+    left: 9px;
 
 }
 
@@ -321,5 +321,10 @@ footer > p > a{
     top: 20%;
 
     right: 37.5%;
+
+}
+#eggfooter > p{
+
+    left: 19.5%;
 
 }
