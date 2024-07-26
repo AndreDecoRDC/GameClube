@@ -42,11 +42,11 @@ nav{
 
     position: fixed;
 
-    width: 18%;
+    width: 15%;
 
     top: 10%;
 
-    left: 40%;
+    left: 42%;
 
 }
 
@@ -71,6 +71,10 @@ nav > ul > li{
     font-family: 'Inconsolata', monospace;
 
     font-size: 14px;
+
+    position: relative;
+
+    left: 11px;
 
 }
 
@@ -126,6 +130,10 @@ footer > p{
 
     margin-left: 27%;
 
+    position: relative;
+
+    left: 6%;
+
 }
 
 footer > p > a{
@@ -171,7 +179,7 @@ footer > p > a{
 
     position: absolute;
 
-    top: 38%;
+    top: 42%;
 
     left: 23.7%;
 
@@ -179,13 +187,15 @@ footer > p > a{
 
     font-weight: 300;
 
+    font-size: 32px;
+
 }
 
 .banner-div > h2{
 
     position: absolute;
 
-    font-size: 18px;
+    font-size: 24px;
 
     top: 57%;
 

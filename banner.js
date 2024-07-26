@@ -21,7 +21,7 @@ function click2(){
     logo.src = "imgs/cod_logo.png";
 
     titulo.innerHTML = "Entre no ringue";
-    titulo.style.top = "48.5%";
+    titulo.style.top = "50.5%";
 
     subtitulo.innerHTML = "Torne-se o melhor pugilista derrotando<br>os adversarios e levando uma maleta de troféu<br>para casa em Call of Duty.";
 
@@ -41,7 +41,7 @@ function click1(){
     logo.src = "imgs/logo_nba.png";
 
     titulo.innerHTML = "Jogue onde estiver,<br>ganhe em todo lugar";
-    titulo.style.top = "42%";
+    titulo.style.top = "44%";
 
     subtitulo.innerHTML = "Acumule Vitorias,desbloqueie<br> banners e faça história<br>no NBA2K25";
 
