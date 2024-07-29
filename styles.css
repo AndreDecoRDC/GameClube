@@ -18,7 +18,9 @@ header{
 
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 
-    background-color: whitesmoke;
+    background-color: white;
+
+    z-index: 3;
 
 }
 
@@ -50,6 +52,8 @@ nav{
 
     left: 42.4%;
 
+    z-index: 3;
+
 }
 
 nav > ul{
@@ -63,6 +67,8 @@ nav > ul{
     padding-top: 2%;
 
     padding-bottom: 2%;
+
+    background-color: white;
 
 }
 
@@ -119,6 +125,8 @@ nav > ul > li > a{
 
 footer{
 
+    position: fixed;
+
     display: flex;
 
     bottom: 0;
@@ -128,10 +136,8 @@ footer{
     width: 100%;
 
     box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
-
-    position: fixed;
-
-    background-color: whitesmoke;
+    
+    background-color: white;
 
 }
 
