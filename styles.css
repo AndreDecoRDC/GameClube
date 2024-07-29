@@ -416,9 +416,18 @@ footer > p > a{
 
 }
 #psprodutos > h1{
-
-    font-weight: 100;
+    
     position: absolute;
+
+    border: 2px solid black;
+    
+    border-radius: 16px;
+
+    padding: 4px;
+
+    background-color: white;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 10px 10px 15px;
 
 }
 #gow > img{
@@ -764,6 +773,354 @@ footer > p > a{
 
 }
 #er:active{
+
+    top: -1365px;
+
+    left: 1202px;
+
+}
+#xprodutos{
+
+    font-family: "inconsolata", monospace;
+
+    color: black;
+
+    margin: 60px;
+
+    margin-top: 200px;
+
+}
+#xprodutos > h1{
+    
+    position: absolute;
+
+    border: 2px solid black;
+    
+    border-radius: 16px;
+
+    padding: 4px;
+
+    background-color: white;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 10px 10px 15px;
+
+}   
+#nba > img{
+
+    width: 275px;
+
+    top: 25px;
+
+    position: relative;
+
+    left: 40px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
+
+
+}
+#nba{
+
+    left: 200px;
+
+    position: relative;
+
+    top: 160px;
+
+    width: 350px;
+
+    border: solid 4px rgb(49, 49, 49);
+
+    background-color: white;
+
+    border-radius: 24px;
+  
+    height: 410px;
+
+}
+#nba > p{
+
+    position: absolute;
+
+    left: 100px;
+
+    top: 410px;
+
+}
+#nba:hover{
+
+    cursor: pointer;
+
+}
+#nba:active{
+
+    top: 158px;
+
+    left: 203px;
+
+}
+#cod > img{
+
+    width: 275px;
+
+    top: 25px;
+
+    position: relative;
+
+    left: 40px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
+
+}
+#cod{
+
+    left: 700px;
+
+    position: relative;
+
+    top: -255px;
+
+    width: 350px;
+
+    border: solid 4px rgb(49, 49, 49);
+
+    background-color: white;
+
+    border-radius: 24px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 05px 15px;
+
+    height: 410px;
+
+
+}
+#cod > p{
+
+    position: absolute;
+
+    left: 60px;
+
+    top: 410px
+
+}
+#cod:hover{
+
+    cursor: pointer;
+
+}
+#cod:active{
+
+    top: -257px;
+
+    left: 702px;
+
+}
+#fz5:hover{
+
+    cursor: pointer;
+
+}
+#fz5 > img{
+
+    width: 275px;
+
+    top: 25px;
+
+    position: relative;
+
+    left: 40px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
+
+}
+#fz5{
+
+    left: 1200px;
+
+    position: relative;
+
+    top: -670px;
+
+    width: 350px;
+
+    border: solid 4px rgb(49, 49, 49);
+
+    background-color: white;
+
+    border-radius: 24px;
+
+    height: 410px;
+
+}
+#fz5 > p{
+
+    position: absolute;
+
+    left: 80px;
+
+    top: 410px
+    
+}
+#fz5:active{
+
+    top: -672px;
+
+    left: 1202px;
+
+}
+#halo:hover{
+
+    cursor: pointer;
+
+}
+#halo > img{
+
+    width: 275px;
+
+    top: 25px;
+
+    position: relative;
+
+    left: 40px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
+
+}
+#halo{
+
+    left: 200px;
+
+    position: relative;
+
+    top: -530px;
+
+    width: 350px;
+
+    border: solid 4px rgb(49, 49, 49);
+
+    background-color: white;
+
+    border-radius: 24px;
+
+    height: 410px;
+
+}
+#halo > p{
+
+    position: absolute;
+
+    left: 85px;
+
+    top: 410px
+
+}
+#halo:active{
+
+    top: -532px;
+
+    left: 202px;
+
+}
+#nfl:hover{
+
+    cursor: pointer;
+
+}
+#nfl > img{
+
+    width: 275px;
+
+    top: 25px;
+
+    position: relative;
+
+    left: 40px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
+
+}
+#nfl{
+
+    left: 700px;
+
+    position: relative;
+
+    top: -948px;
+
+    width: 350px;
+
+    border: solid 4px rgb(49, 49, 49);
+
+    background-color: white;
+
+    border-radius: 24px;
+
+    height: 410px;
+
+}
+#nfl > p{
+
+    position: absolute;
+
+    left: 83px;
+
+    top: 410px
+
+}
+#nfl:active{
+
+    top: -950px;
+
+    left: 702px;
+
+}
+#sw:hover{
+
+    cursor: pointer;
+
+}
+#sw > img{
+
+    width: 275px;
+
+    top: 25px;
+
+    position: relative;
+
+    left: 40px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
+
+}
+#sw{
+
+    left: 1200px;
+
+    position: relative;
+
+    top: -1363px;
+
+    width: 350px;
+
+    border: solid 4px rgb(49, 49, 49);
+
+    background-color: white;
+
+    border-radius: 24px;
+
+    height: 410px;
+
+}
+#sw > p{
+
+    position: absolute;
+
+    left: 88px;
+
+    top: 410px
+
+}
+#sw:active{
 
     top: -1365px;
 
