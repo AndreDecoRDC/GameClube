@@ -586,16 +586,14 @@ footer > p > a{
 }
 #criadores{
 
-    font-family: "Roboto", sans-serif;
+    font-family: "Incosolata", monospace;
 
-    color: white;
-}
-#empresas{
+    color: black;
 
-    font-family: "Roboto", sans-serif;
+    position: absolute;
 
-    color: white;
-
+    top: 15%;
+    
 }
 #criadores > img {
 
