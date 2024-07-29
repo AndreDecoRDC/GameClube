@@ -139,6 +139,8 @@ footer{
     
     background-color: white;
 
+    z-index: 3;
+
 }
 
 footer > p{
@@ -423,9 +425,9 @@ footer > p > a{
     
     border-radius: 16px;
 
-    padding: 4px;
+    padding: 10px;
 
-    background-color: white;
+    background-color: whitesmoke;
 
     box-shadow: rgba(0, 0, 0, 0.35) 10px 10px 15px;
 
@@ -798,9 +800,9 @@ footer > p > a{
     
     border-radius: 16px;
 
-    padding: 4px;
+    padding: 10px;
 
-    background-color: white;
+    background-color: whitesmoke;
 
     box-shadow: rgba(0, 0, 0, 0.35) 10px 10px 15px;
 
@@ -1123,6 +1125,255 @@ footer > p > a{
 #sw:active{
 
     top: -1365px;
+
+    left: 1202px;
+
+}
+#destaques{
+
+    position: relative;
+
+    top: 150px;
+
+    font-family: "inconsolata", monospace;
+
+    color: black;
+
+    left: 70px;
+
+}
+#destaques > h1{
+
+        position: absolute;
+    
+        border: 2px solid black;
+        
+        border-radius: 16px;
+    
+        padding: 4px;
+    
+        background-color: whitesmoke;
+    
+        box-shadow: rgba(0, 0, 0, 0.35) 10px 10px 15px;
+
+        top: -300px;
+
+        left: -55px;
+
+        padding: 10px;
+
+}
+#halod:hover{
+
+    cursor: pointer;
+
+}
+#halod > img{
+
+    width: 275px;
+
+    top: 25px;
+
+    position: relative;
+
+    left: 40px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
+
+}
+#halod{
+
+    left: 200px;
+
+    position: relative;
+
+    margin-top: 55%;
+
+    top: -130px;
+
+    width: 350px;
+
+    border: solid 4px rgb(49, 49, 49);
+
+    background-color: white;
+
+    border-radius: 24px;
+
+    height: 410px;
+
+    font-family: "inconsolata", monospace;
+
+    color: white;
+
+}
+#halod > a{
+
+    position: absolute;
+
+    left: 100px;
+
+    top: 410px;
+    
+    border: 2px solid rgb(14, 14, 14);
+
+    background-color: rgb(14, 14, 14);
+
+    border-radius: 24px;
+
+    padding: 8px;
+
+    padding-left: 30px;
+
+    padding-right: 30px;
+
+    color: white;
+
+}
+#halod:active{
+
+    top: -132px;
+
+    left: 202px;
+
+}
+#helld:hover{
+
+    cursor: pointer;
+
+}
+#helld > img{
+
+    width: 275px;
+
+    top: 25px;
+
+    position: relative;
+
+    left: 40px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
+
+}
+#helld{
+
+    left: 700px;
+
+    position: relative;
+
+    top: -546px;
+
+    width: 350px;
+
+    border: solid 4px rgb(49, 49, 49);
+
+    background-color: white;
+
+    border-radius: 24px;
+
+    height: 410px;
+
+    font-family: "inconsolata", monospace;
+
+    color: white;
+
+}
+#helld > a{
+
+    position: absolute;
+
+    left: 100px;
+
+    top: 410px;
+    
+    border: 2px solid rgb(14, 14, 14);
+
+    background-color: rgb(14, 14, 14);
+
+    border-radius: 24px;
+
+    padding: 8px;
+
+    padding-left: 30px;
+
+    padding-right: 30px;
+
+    color: white;
+
+}
+#helld:active{
+
+    top: -548px;
+
+    left: 702px;
+
+}
+#botwd:hover{
+
+    cursor: pointer;
+
+}
+#botwd > img{
+
+    width: 220px;
+
+    top: 25px;
+
+    position: relative;
+
+    left: 65px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
+
+}
+#botwd{
+
+    left: 1200px;
+
+    position: relative;
+
+    top: -963px;
+
+    width: 350px;
+
+    border: solid 4px rgb(49, 49, 49);
+
+    background-color: white;
+
+    border-radius: 24px;
+
+    height: 410px;
+
+    font-family: "inconsolata", monospace;
+
+    color: white;
+
+}
+#botwd > a{
+
+    position: absolute;
+
+    left: 100px;
+
+    top: 410px;
+    
+    border: 2px solid rgb(14, 14, 14);
+
+    background-color: rgb(14, 14, 14);
+
+    border-radius: 24px;
+
+    padding: 8px;
+
+    padding-left: 30px;
+
+    padding-right: 30px;
+
+    color: white;
+
+}
+#botwd:active{
+
+    top: -965px;
 
     left: 1202px;
 
