@@ -68,4 +68,4 @@ function exect(){
 minibanner2.addEventListener("click",click2);
 minibanner1.addEventListener("click",click1);
 
-setInterval(exect, 6000);
+setInterval(exect, 3000);
