@@ -1121,7 +1121,7 @@ footer > p > a{
 
     color: black;
 
-    left: 80px;
+    left: 51px;
 
 }
 #destaques > h1{
@@ -1372,5 +1372,349 @@ footer > p > a{
 #nintendo-nav-2{
 
     color: red;
+
+}
+#nprodutos{
+
+    font-family: "inconsolata", monospace;
+
+    color: black;
+
+    margin: 60px;
+
+    margin-top: 200px;
+
+}
+#nprodutos > h1{
+    
+    position: absolute;
+
+    font-family: "Inconsolata", monospace;
+
+    font-weight: 300;
+
+    border-radius: 16px;
+
+    padding: 10px;
+
+    background-color: whitesmoke;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 10px 10px 15px;
+
+}
+#botw > img{
+
+    width: 220px;
+
+    top: 25px;
+
+    position: relative;
+
+    left: 65px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
+
+
+}
+#botw{
+
+    left: 200px;
+
+    position: relative;
+
+    top: 160px;
+
+    width: 350px;
+
+    background-color: white;
+
+    border-radius: 24px;
+  
+    height: 410px;
+
+}
+#botw > p{
+
+    position: absolute;
+
+    left: 87px;
+
+    top: 410px;
+
+}
+#botw:hover{
+
+    cursor: pointer;
+
+}
+#botw:active{
+
+    top: 158px;
+
+    left: 203px;
+
+}
+#maker > img{
+
+    width: 220px;
+
+    top: 25px;
+
+    position: relative;
+
+    left: 65px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
+
+}
+#maker{
+
+    left: 700px;
+
+    position: relative;
+
+    top: -255px;
+
+    width: 350px;
+
+    background-color: white;
+
+    border-radius: 24px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 05px 15px;
+
+    height: 410px;
+
+
+}
+#maker > p{
+
+    position: absolute;
+
+    left: 53px;
+
+    top: 410px
+
+}
+#maker:hover{
+
+    cursor: pointer;
+
+}
+#maker:active{
+
+    top: -257px;
+
+    left: 702px;
+
+}
+#luigi:hover{
+
+    cursor: pointer;
+
+}
+#luigi > img{
+
+    width: 220px;
+    border-radius: 16px;
+    top: 25px;
+
+    position: relative;
+
+    left: 65px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
+
+}
+#luigi{
+
+    left: 1200px;
+
+    position: relative;
+
+    top: -670px;
+
+    width: 350px;
+    
+    border-radius: 16px;
+
+    background-color: white;
+
+    border-radius: 24px;
+
+    height: 410px;
+
+}
+#luigi > p{
+
+    border-radius: 16px;
+
+    position: absolute;
+
+    left: 68px;
+
+    top: 410px
+    
+}
+#luigi:active{
+
+    top: -672px;
+
+    left: 1202px;
+
+}
+#kart:hover{
+
+    cursor: pointer;
+    border-radius: 16px;
+}
+#kart > img{
+
+    width: 220px;
+
+    top: 25px;
+
+    position: relative;
+
+    left: 65px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
+
+}
+#kart{
+
+    left: 200px;
+
+    position: relative;
+
+    top: -530px;
+
+    width: 350px;
+
+    background-color: white;
+
+    border-radius: 24px;
+
+    height: 410px;
+    border-radius: 16px;
+}
+#kart > p{
+
+    position: absolute;
+
+    left: 56px;
+
+    top: 410px
+
+}
+#kart:active{
+
+    top: -532px;
+
+    left: 202px;
+
+}
+#smash:hover{
+
+    cursor: pointer;
+
+}
+#smash > img{
+
+    width: 220px;
+
+    top: 25px;
+
+    position: relative;
+
+    left: 65px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
+
+}
+#smash{
+
+    left: 700px;
+
+    position: relative;
+
+    top: -948px;
+
+    width: 350px;
+
+    border-radius: 16px;
+
+    background-color: white;
+
+    border-radius: 24px;
+
+    height: 410px;
+
+}
+#smash > p{
+
+    position: absolute;
+
+    left: 73px;
+
+    top: 410px
+
+}
+#smash:active{
+
+    top: -950px;
+
+    left: 702px;
+
+}
+#splatoon:hover{
+
+    cursor: pointer;
+
+}
+#splatoon > img{
+
+    width: 220px;
+
+    top: 25px;
+
+    position: relative;
+
+    left: 65px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
+
+}
+#splatoon{
+
+    left: 1200px;
+
+    position: relative;
+
+    top: -1363px;
+
+    width: 350px;
+
+    background-color: white;
+
+    border-radius: 24px;
+
+    height: 410px;
+
+}
+#splatoon > p{
+
+    position: absolute;
+
+    left: 95px;
+
+    top: 410px
+
+}
+#splatoon:active{
+
+    top: -1365px;
+
+    left: 1202px;
 
 }
