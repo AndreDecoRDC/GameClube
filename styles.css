@@ -1792,3 +1792,12 @@ footer > p > a{
     left: 1202px;
 
 }
+#sugestao{
+    font-family: "Incosolata", monospace;
+}
+#sug-env{
+    font-family: "Incosolata", monospace;
+    position: absolute;
+    top: 96.7%;
+    left: 101%;
+}
