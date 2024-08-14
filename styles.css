@@ -46,6 +46,17 @@ header > a{
     font-weight: 600;
 
 }
+#logo-header > img{
+
+    position: relative;
+
+    width: 220px;
+
+    right: 10px;
+
+    top: 5px;
+
+}
 
 nav{
 
