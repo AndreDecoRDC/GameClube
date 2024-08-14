@@ -1150,7 +1150,7 @@ footer > p > a{
 
     color: black;
 
-    left: 2.8%;
+    left: 2.9%;
 
     margin-top: 20%;
 
@@ -1198,7 +1198,7 @@ footer > p > a{
 }
 #halod{
 
-    left: 10%;
+    left: 11.5%;
 
     position: absolute;
 
@@ -1248,11 +1248,11 @@ footer > p > a{
 }
 #halod:active{
 
-    top: -132px;
+    bottom: -398px;
 
-    left: 202px;
+    left: 11.7%;
 
-}
+    }
 #helld:hover{
 
     cursor: pointer;
@@ -1273,7 +1273,7 @@ footer > p > a{
 }
 #helld{
 
-    left: 700px;
+    left: 708px;
 
     position: absolute;
 
@@ -1323,9 +1323,9 @@ footer > p > a{
 }
 #helld:active{
 
-    top: -548px;
+    bottom: -398px;
 
-    left: 702px;
+    left: 710px;
 
 }
 #botwd:hover{
@@ -1396,7 +1396,7 @@ footer > p > a{
 }
 #botwd:active{
 
-    top: -965px;
+    bottom: -395px;
 
     left: 1202px;
 
