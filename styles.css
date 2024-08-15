@@ -1801,3 +1801,9 @@ footer > p > a{
     top: 96.7%;
     left: 101%;
 }
+#gamesvid{
+    width: 80%;
+    position: absolute;
+    left: 130%;
+    top: 10%;
+}
