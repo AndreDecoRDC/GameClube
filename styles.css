@@ -1271,9 +1271,9 @@ footer > p > a{
 }
 #halod:active{
 
-    top: -132px;
+    bottom: -398px;
 
-    left: 202px;
+    left: 10.1%;
 
 }
 #helld:hover{
@@ -1346,7 +1346,7 @@ footer > p > a{
 }
 #helld:active{
 
-    top: -548px;
+    bottom: -398px;
 
     left: 702px;
 
@@ -1419,7 +1419,7 @@ footer > p > a{
 }
 #botwd:active{
 
-    top: -965px;
+    bottom: -398px;
 
     left: 1202px;
 
@@ -1793,17 +1793,29 @@ footer > p > a{
 
 }
 #sugestao{
+
     font-family: "Incosolata", monospace;
+
 }
 #sug-env{
+
     font-family: "Incosolata", monospace;
+
     position: absolute;
+
     top: 96.7%;
+
     left: 101%;
+
 }
 #gamesvid{
+
     width: 80%;
+
     position: absolute;
+
     left: 130%;
+
     top: 10%;
+
 }
