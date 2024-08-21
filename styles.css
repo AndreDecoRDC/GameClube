@@ -6,7 +6,8 @@ body{
 
 body, html{
 
-    height: 115%;
+    height: 118%;
+    width: 90%;
 
 }
 
@@ -529,6 +530,7 @@ footer > p > a{
 
     height: 410px;
 
+
 }
 #hell > p{
 
@@ -599,7 +601,7 @@ footer > p > a{
 }
 #tlou:active{
 
-    top: 158px;
+    top: -672px;
 
     left: 1202px;
 
@@ -613,7 +615,7 @@ footer > p > a{
 }
 #hell:active{
 
-    top: 158px;
+    top: -257px;
 
     left: 702px;
 
@@ -691,7 +693,7 @@ footer > p > a{
 }
 #re4:active{
 
-    top: 678px;
+    top: -532px;
 
     left: 202px;
 
@@ -742,7 +744,7 @@ footer > p > a{
 }
 #sm2:active{
 
-    top: 678px;
+    top: -950px;
 
     left: 702px;
 
@@ -793,7 +795,7 @@ footer > p > a{
 }
 #er:active{
 
-    top: 678px;
+    top: -1365px;
 
     left: 1202px;
 
@@ -879,7 +881,7 @@ footer > p > a{
 
     top: 158px;
 
-    left: 202px;
+    left: 203px;
 
 }
 #cod > img{
@@ -931,7 +933,7 @@ footer > p > a{
 }
 #cod:active{
 
-    top: 158px;
+    top: -257px;
 
     left: 702px;
 
@@ -984,7 +986,7 @@ footer > p > a{
 }
 #fz5:active{
 
-    top: 158px;
+    top: -672px;
 
     left: 1202px;
 
@@ -1039,7 +1041,7 @@ footer > p > a{
 }
 #halo:active{
 
-    top: 678px;
+    top: -532px;
 
     left: 202px;
 
@@ -1092,7 +1094,7 @@ footer > p > a{
 }
 #nfl:active{
 
-    top: 678px;
+    top: -950px;
 
     left: 702px;
 
@@ -1143,9 +1145,11 @@ footer > p > a{
 }
 #sw:active{
 
-    top: 678px;
+    top: -1365px;
 
     left: 1202px;
+
+    opacity: 0;
 
 }
 
@@ -1166,11 +1170,11 @@ footer > p > a{
 
     position: relative;
 
-    top: 900px;
+    top: 920px;
 
     color: black;
 
-    left: 2.8%;
+    left: 4%;
 
     margin-top: 20%;
 
@@ -1189,7 +1193,7 @@ footer > p > a{
 
         bottom: 320px;
 
-        left: 39.7%;
+        left: 48%;
 
         padding: 10px;
 
@@ -1205,17 +1209,14 @@ footer > p > a{
 }
 #halod > img{
 
-    width: 77%;
-
-    top: 6%;
+    width: 100%;
 
     position: absolute;
 
-    left: 12%;
-
-    box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
+    border-radius: 24px;
 
 }
+
 #halod{
 
     left: 10%;
@@ -1234,7 +1235,9 @@ footer > p > a{
 
     height: 410px;
 
-    font-family: "inconsolata", monospace;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
 
     color: white;
 
@@ -1247,13 +1250,15 @@ footer > p > a{
 
     position: absolute;
 
-    left: 100px;
+    left: 0;
 
-    top: 430px;
+    top: 460px;
 
     background-color: green;
 
-    border-radius: 24px;
+    border-bottom: 1px green solid;
+
+    border-radius: 12px;
 
     padding-left: 30px;
 
@@ -1265,7 +1270,16 @@ footer > p > a{
 
     color: white;
 
+    text-decoration: none;
+
+    width: 83%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+
+    text-align: center;
+
 }
+
 #halod:active{
 
     bottom: -398px;
@@ -1280,17 +1294,14 @@ footer > p > a{
 }
 #helld > img{
 
-    width: 275px;
+    width: 100%;
 
-    top: 25px;
+    position: absolute;
 
-    position: relative;
-
-    left: 40px;
-
-    box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
+    border-radius: 24px;
 
 }
+
 #helld{
 
     left: 700px;
@@ -1309,7 +1320,9 @@ footer > p > a{
 
     height: 410px;
 
-    font-family: "inconsolata", monospace;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
 
     color: white;
 
@@ -1322,13 +1335,13 @@ footer > p > a{
 
     position: absolute;
 
-    left: 100px;
+    left: 0;
 
-    top: 430px;
+    top: 460px;
 
     background-color: blue;
 
-    border-radius: 24px;
+    border-radius: 12px;
 
     padding-left: 30px;
 
@@ -1339,6 +1352,16 @@ footer > p > a{
     padding-right: 30px;
 
     color: white;
+
+    text-decoration: none;
+
+    width: 83%;
+
+    padding-top: 7%;
+
+    padding-bottom: 7%;
+
+    text-align: center;
 
 }
 #helld:active{
@@ -1355,15 +1378,11 @@ footer > p > a{
 }
 #botwd > img{
 
-    width: 220px;
+    width: 100%;
 
-    top: 25px;
+    position: absolute;
 
-    position: relative;
-
-    left: 65px;
-
-    box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
+    border-radius: 24px;
 
 }
 #botwd{
@@ -1372,7 +1391,9 @@ footer > p > a{
 
     position: absolute;
 
-    bottom: -400px; 
+    margin-top: 55%;
+
+    bottom: -400px;
 
     width: 350px;
 
@@ -1382,7 +1403,9 @@ footer > p > a{
 
     height: 410px;
 
-    font-family: "inconsolata", monospace;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
 
     color: white;
 
@@ -1390,18 +1413,19 @@ footer > p > a{
 
     padding-bottom: 80px;
 
+
 }
 #botwd > a{
 
     position: absolute;
 
-    left: 100px;
+    left: 0;
 
-    top: 430px;
+    top: 460px;
 
     background-color: red;
 
-    border-radius: 24px;
+    border-radius: 12px;
 
     padding-left: 30px;
 
@@ -1412,6 +1436,16 @@ footer > p > a{
     padding-right: 30px;
 
     color: white;
+
+    text-decoration: none;
+
+    width: 83%;
+
+    padding-top: 7%;
+
+    padding-bottom: 7%;
+
+    text-align: center;
 
 }
 #botwd:active{
@@ -1522,7 +1556,7 @@ footer > p > a{
 
     top: 158px;
 
-    left: 202px;
+    left: 203px;
 
 }
 #maker > img{
@@ -1574,7 +1608,7 @@ footer > p > a{
 }
 #maker:active{
 
-    top: 158px;
+    top: -257px;
 
     left: 702px;
 
@@ -1629,7 +1663,7 @@ footer > p > a{
 }
 #luigi:active{
 
-    top: 158px;
+    top: -672px;
 
     left: 1202px;
 
@@ -1680,7 +1714,7 @@ footer > p > a{
 }
 #kart:active{
 
-    top: 678px;
+    top: -532px;
 
     left: 202px;
 
@@ -1733,7 +1767,7 @@ footer > p > a{
 }
 #smash:active{
 
-    top: 678px;
+    top: -950px;
 
     left: 702px;
 
@@ -1784,7 +1818,7 @@ footer > p > a{
 }
 #splatoon:active{
 
-    top: 678px;
+    top: -1365px;
 
     left: 1202px;
 
