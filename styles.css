@@ -1,0 +1,1818 @@
+body{
+
+    background-color: rgb(240, 240, 240);
+
+}
+
+body, html{
+
+    height: 115%;
+
+}
+
+header{
+
+    position: fixed;
+
+    left: 0;
+    top: 0;
+
+    width: 100%;
+
+    text-align: center;
+
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+    background-color: white;
+
+    z-index: 3;
+
+}
+
+header > a{
+
+    text-decoration: none;
+
+}
+
+header > a{
+
+    font-size: 21px;
+
+    color: rgb(14, 14, 14);
+
+    font-family: 'Inconsolata', monospace;
+
+    font-weight: 600;
+
+}
+#logo-header > img{
+
+    position: relative;
+
+    width: 220px;
+
+    right: 10px;
+
+    top: 5px;
+
+}
+
+nav{
+
+    position: fixed;
+
+    width: 15%;
+
+    top: 10%;
+
+    left: 42.4%;
+
+    z-index: 3;
+
+}
+
+nav > ul{
+
+    list-style: none;
+
+    border-radius: 24px;
+
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+
+    padding-top: 2%;
+
+    padding-bottom: 2%;
+
+    background-color: white;
+
+}
+
+nav > ul > li{
+
+    display: inline;
+
+    font-family: 'Inconsolata', monospace;
+
+    font-size: 14px;
+
+    position: relative;
+
+    left: 9px;
+
+}
+
+nav > ul > li > a{
+
+    text-decoration: none;
+    color: black;
+
+}
+
+#ps-nav:hover{
+
+    cursor: pointer;
+
+    color: blue;
+
+}
+
+#xbox-nav:hover{
+
+    cursor: pointer;
+
+    color: green;
+
+}
+
+#nintendo-nav:hover{
+
+    cursor: pointer;
+
+    color: red;
+
+}
+
+.nav-option{
+
+    padding-left: 3%;
+
+}
+
+footer{
+
+    position: fixed;
+
+    display: flex;
+
+    bottom: 0;
+
+    left: 0;
+
+    width: 100%;
+
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+    
+    background-color: white;
+
+    z-index: 3;
+
+
+
+}
+
+footer > p{
+
+    font-family: 'Inconsolata', sans-serif;
+
+    margin-left: 27%;
+
+    position: relative;
+
+    left: 6%;
+
+}
+
+footer > p > a{
+
+    text-decoration: underline;
+
+    color: blue;
+
+}
+
+
+.banner-div > #banner{
+
+    position: absolute;
+
+    width: 80%;
+
+    top: 24%;
+
+    left: 18%;
+
+    border-radius: 24px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.banner-div > #logo{
+
+    width: 20%;
+
+    position: absolute;
+
+    top: 34%;
+
+    left: 23%;
+
+}
+
+.banner-div > h1{
+
+    color: white;
+
+    position: absolute;
+
+    top: 42%;
+
+    left: 23.7%;
+
+    font-family: 'Roboto', sans-serif;
+
+    font-weight: 300;
+
+    font-size: 32px;
+
+}
+
+.banner-div > h2{
+
+    position: absolute;
+
+    font-size: 24px;
+
+    top: 57%;
+
+    left: 23.7%;
+
+    color: white;
+
+    font-family: 'Roboto', sans-serif;
+
+    font-weight: 300;
+
+}
+
+.banner-div > button{
+
+    position: absolute;
+
+    top: 74%;
+
+    left: 23.7%;
+
+    border: none;
+
+    background-color: white;
+
+    width: 8%;
+
+    height: 5%;
+
+    border-radius: 32px;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+
+}
+
+.mini-banner-div > #mini-banner1{
+
+    width: 16%;
+
+    top: 27%;
+
+    left: 1%;
+
+    position: absolute;
+
+    border-radius: 24px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.mini-banner-div > #mini-banner2{
+
+    width: 12%;
+
+    top: 42%;
+
+    left: 1%;
+
+    position: absolute;
+
+    border-radius: 20px;
+
+}
+
+@keyframes scaling1 {
+    
+    from{
+
+        width: 12%;
+
+    }
+
+    to{
+
+        width: 16%;
+
+    }
+
+}
+
+@keyframes scaling2 {
+    
+    from{
+
+        width: 16%;
+
+    }
+
+    to{
+
+        width: 12%;
+
+    }
+
+}
+
+#egg{
+
+    position: absolute;
+
+    bottom: 5%;
+
+    left: 95%;
+
+    opacity: 0;
+
+    width: 40px;
+
+}
+#egg:hover{
+
+    opacity: 1;
+
+    color: rgb(0, 0, 0);
+
+}
+#tyler{
+
+    position: absolute;
+
+    top: 20%;
+
+    right: 37.5%;
+
+}
+#eggfooter > p{
+
+    left: 19.5%;
+
+}
+
+.filtros-section{
+
+    position: fixed;
+
+    top: 25%;
+
+    left: 6%;
+
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+    border-radius: 24px;
+
+    width: 20%;
+    height: 55%;
+    
+}
+
+.filtros-section > article{
+
+    padding-left: 15%;
+    padding-top: 8%;
+
+    border-bottom: 1px solid black;
+
+    padding-bottom: 5%;
+    
+}
+
+.filtros-section > article > h3{
+
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    display: inline;
+
+}
+
+.filtros-section > article > button{
+
+    display: inline;
+    
+    margin-left: 48%;
+
+    border: none;
+
+    font-size: 24px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+
+}
+#crd{
+
+    color: rgb(255, 255, 255);
+
+}
+#crd:hover{
+
+    color: aqua;
+}
+#psprodutos{
+
+    position: relative;
+
+    font-family: "Inconsolata", monospace;
+
+    color: black;
+
+    margin: 60px;
+
+    margin-top: 200px;
+
+}
+#psprodutos > h1{
+    
+    position: absolute;
+
+    font-family: "Inconsolata", monospace;
+
+    font-weight: 300;
+
+    border-radius: 16px;
+
+    padding: 10px;
+
+    background-color: blue;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 10px 10px 15px;
+
+    color: white;
+
+}   
+#gow > img{
+
+    width: 275px;
+
+    top: 25px;
+
+    position: absolute;
+
+    left: 40px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
+
+
+}
+#gow{
+
+    left: 200px;
+
+    position: absolute;
+
+    top: 160px;
+
+    width: 350px;
+
+    background-color: white;
+
+    border-radius: 24px;
+  
+    height: 410px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
+
+}
+#gow > p{
+
+    position: absolute;
+
+    left: 52px;
+
+    top: 410px;
+
+}
+#hell > img{
+
+    width: 275px;
+
+    top: 25px;
+
+    position: absolute;
+
+    left: 40px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
+
+}
+#hell{
+
+    left: 700px;
+
+    position: absolute;
+
+    top: 160px;
+
+    width: 350px;
+
+    background-color: white;
+
+    border-radius: 24px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 05px 15px;
+
+    height: 410px;
+
+}
+#hell > p{
+
+    position: absolute;
+
+    left: 49px;
+
+    top: 410px;
+
+    color: blue;
+
+    width: 400px;
+
+}
+#gow:hover{
+
+    cursor: pointer;
+
+}
+#hell:hover{
+
+    cursor: pointer;
+
+}
+#tlou:hover{
+
+    cursor: pointer;
+
+}
+#tlou > img{
+
+    width: 275px;
+
+    top: 25px;
+
+    position: absolute;
+
+    left: 40px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
+
+}
+#tlou{
+
+    left: 1200px;
+
+    position: absolute;
+
+    top: 160px;
+
+    width: 350px;
+
+    background-color: white;
+
+    border-radius: 24px;
+
+    height: 410px;
+
+}
+#tlou > p{
+
+    position: absolute;
+
+    left: 50px;
+
+    top: 410px
+    
+}
+#tlou:active{
+
+    top: 158px;
+
+    left: 1202px;
+
+}
+#gow:active{
+
+    top: 158px;
+
+    left: 203px;
+
+}
+#hell:active{
+
+    top: 158px;
+
+    left: 702px;
+
+}
+#criadores{
+
+    font-family: "Incosolata", monospace;
+
+    color: black;
+
+    position: absolute;
+
+    top: 15%;
+    
+}
+#criadores > img {
+
+    width: 200px;
+
+    padding-right: 20px;
+
+    border-radius: 100%;
+
+}
+#fontes{
+
+    font-family: "Roboto", sans-serif;
+
+    color: white;
+
+}
+#re4:hover{
+
+    cursor: pointer;
+
+}
+#re4 > img{
+
+    width: 275px;
+
+    top: 25px;
+
+    position: absolute;
+
+    left: 40px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
+
+}
+#re4{
+
+    left: 200px;
+
+    position: absolute;
+
+    top: 680px;
+
+    width: 350px;
+
+    background-color: white;
+
+    border-radius: 24px;
+
+    height: 410px;
+
+}
+#re4 > p{
+
+    position: absolute;
+
+    left: 72px;
+
+    top: 410px
+
+}
+#re4:active{
+
+    top: 678px;
+
+    left: 202px;
+
+}
+#sm2:hover{
+
+    cursor: pointer;
+
+}
+#sm2 > img{
+
+    width: 275px;
+
+    top: 25px;
+
+    position: absolute;
+
+    left: 40px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
+
+}
+#sm2{
+
+    left: 700px;
+
+    position: absolute;
+
+    top: 680px;
+
+    width: 350px;
+
+    background-color: white;
+
+    border-radius: 24px;
+
+    height: 410px;
+
+}
+#sm2 > p{
+
+    position: absolute;
+
+    left: 52px;
+
+    top: 410px
+
+}
+#sm2:active{
+
+    top: 678px;
+
+    left: 702px;
+
+}
+#er:hover{
+
+    cursor: pointer;
+
+}
+#er > img{
+
+    width: 275px;
+
+    top: 25px;
+
+    position: absolute;
+
+    left: 40px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
+
+}
+#er{
+
+    left: 1200px;
+
+    position: absolute;
+
+    top: 680px;
+
+    width: 350px;
+
+    background-color: white;
+
+    border-radius: 24px;
+
+    height: 410px;
+
+}
+#er > p{
+
+    position: absolute;
+
+    left: 100px;
+
+    top: 410px
+
+}
+#er:active{
+
+    top: 678px;
+
+    left: 1202px;
+
+}
+#xprodutos{
+
+    position: relative;
+
+    font-family: "inconsolata", monospace;
+
+    color: black;
+
+    margin: 60px;
+
+    margin-top: 200px;
+
+}
+#xprodutos > h1{
+    
+    position: absolute;
+
+    font-family: "Inconsolata", monospace;
+
+    font-weight: 300;
+
+    border-radius: 16px;
+
+    padding: 10px;
+
+    background-color: green;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 10px 10px 15px;
+
+    color: white;
+
+}   
+#nba > img{
+
+    width: 275px;
+
+    top: 25px;
+
+    position: absolute;
+
+    left: 40px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
+
+
+}
+#nba{
+
+    left: 200px;
+
+    position: absolute;
+
+    top: 160px;
+
+    width: 350px;
+
+    background-color: white;
+
+    border-radius: 24px;
+  
+    height: 410px;
+
+}
+#nba > p{
+
+    position: absolute;
+
+    left: 100px;
+
+    top: 410px;
+
+}
+#nba:hover{
+
+    cursor: pointer;
+
+}
+#nba:active{
+
+    top: 158px;
+
+    left: 202px;
+
+}
+#cod > img{
+
+    width: 275px;
+
+    top: 25px;
+
+    position: absolute;
+
+    left: 40px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
+
+}
+#cod{
+
+    left: 700px;
+
+    position: absolute;
+
+    top: 160px;
+
+    width: 350px;
+
+    background-color: white;
+
+    border-radius: 24px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 05px 15px;
+
+    height: 410px;
+
+
+}
+#cod > p{
+
+    position: absolute;
+
+    left: 60px;
+
+    top: 410px
+
+}
+#cod:hover{
+
+    cursor: pointer;
+
+}
+#cod:active{
+
+    top: 158px;
+
+    left: 702px;
+
+}
+#fz5:hover{
+
+    cursor: pointer;
+
+}
+#fz5 > img{
+
+    width: 275px;
+    border-radius: 16px;
+    top: 25px;
+
+    position: absolute;
+
+    left: 40px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
+
+}
+#fz5{
+
+    left: 1200px;
+
+    position: absolute;
+
+    top: 160px;
+
+    width: 350px;
+    
+    border-radius: 16px;
+
+    background-color: white;
+
+    border-radius: 24px;
+
+    height: 410px;
+
+}
+#fz5 > p{
+    border-radius: 16px;
+    position: absolute;
+
+    left: 80px;
+
+    top: 410px
+    
+}
+#fz5:active{
+
+    top: 158px;
+
+    left: 1202px;
+
+}
+#halo:hover{
+
+    cursor: pointer;
+    border-radius: 16px;
+}
+#halo > img{
+
+    width: 275px;
+
+    top: 25px;
+
+    position: absolute;
+
+    left: 40px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
+
+}
+#halo{
+
+    left: 200px;
+
+    position: absolute;
+
+    top: 680px;
+
+    width: 350px;
+
+    background-color: white;
+
+    border-radius: 24px;
+
+    height: 410px;
+    border-radius: 16px;
+}
+#halo > p{
+
+    position: absolute;
+
+    left: 39px;
+
+    top: 410px;
+
+    color: green;
+
+    width: 400px;
+
+}
+#halo:active{
+
+    top: 678px;
+
+    left: 202px;
+
+}
+#nfl:hover{
+
+    cursor: pointer;
+
+}
+#nfl > img{
+
+    width: 275px;
+
+    top: 25px;
+
+    position: absolute;
+
+    left: 40px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
+
+}
+#nfl{
+
+    left: 700px;
+
+    position: absolute;
+
+    top: 680px;
+
+    width: 350px;
+
+    border-radius: 16px;
+
+    background-color: white;
+
+    border-radius: 24px;
+
+    height: 410px;
+
+}
+#nfl > p{
+
+    position: absolute;
+
+    left: 83px;
+
+    top: 410px
+
+}
+#nfl:active{
+
+    top: 678px;
+
+    left: 702px;
+
+}
+#sw:hover{
+
+    cursor: pointer;
+
+}
+#sw > img{
+
+    width: 275px;
+
+    top: 25px;
+
+    position: absolute;
+
+    left: 40px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
+
+}
+#sw{
+
+    left: 1200px;
+
+    position: absolute;
+
+    top: 680px;
+
+    width: 350px;
+
+    background-color: white;
+
+    border-radius: 24px;
+
+    height: 410px;
+
+}
+#sw > p{
+
+    position: absolute;
+
+    left: 88px;
+
+    top: 410px
+
+}
+#sw:active{
+
+    top: 678px;
+
+    left: 1202px;
+
+}
+
+#space{
+
+    position: absolute;
+
+}
+#space > img{
+
+    opacity: 0;
+
+    width: 250px;
+
+}
+
+#destaques{
+
+    position: relative;
+
+    top: 900px;
+
+    color: black;
+
+    left: 2.8%;
+
+    margin-top: 20%;
+
+}
+#destaques > h1{
+
+        position: absolute;
+        
+        border-radius: 16px;
+    
+        padding: 4px;
+    
+        background-color: whitesmoke;
+    
+        box-shadow: rgba(0, 0, 0, 0.35) 10px 10px 15px;
+
+        bottom: 320px;
+
+        left: 39.7%;
+
+        padding: 10px;
+
+        font-family: "Inconsolata", monospace;
+
+        font-weight: 300;
+
+}
+#halod:hover{
+
+    cursor: pointer;
+
+}
+#halod > img{
+
+    width: 77%;
+
+    top: 6%;
+
+    position: absolute;
+
+    left: 12%;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
+
+}
+#halod{
+
+    left: 10%;
+
+    position: absolute;
+
+    margin-top: 55%;
+
+    bottom: -400px;
+
+    width: 350px;
+
+    background-color: white;
+
+    border-radius: 24px;
+
+    height: 410px;
+
+    font-family: "inconsolata", monospace;
+
+    color: white;
+
+    margin-bottom: 8%;
+
+    padding-bottom: 80px;
+
+}
+#halod > a{
+
+    position: absolute;
+
+    left: 100px;
+
+    top: 430px;
+
+    background-color: green;
+
+    border-radius: 24px;
+
+    padding-left: 30px;
+
+    padding-top: 10px;
+
+    padding-bottom: 10px;
+
+    padding-right: 30px;
+
+    color: white;
+
+}
+#halod:active{
+
+    bottom: -398px;
+
+    left: 10.1%;
+
+}
+#helld:hover{
+
+    cursor: pointer;
+
+}
+#helld > img{
+
+    width: 275px;
+
+    top: 25px;
+
+    position: relative;
+
+    left: 40px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
+
+}
+#helld{
+
+    left: 700px;
+
+    position: absolute;
+
+    margin-top: 55%;
+
+    bottom: -400px;
+
+    width: 350px;
+
+    background-color: white;
+
+    border-radius: 24px;
+
+    height: 410px;
+
+    font-family: "inconsolata", monospace;
+
+    color: white;
+
+    margin-bottom: 8%;
+
+    padding-bottom: 80px;
+
+}
+#helld > a{
+
+    position: absolute;
+
+    left: 100px;
+
+    top: 430px;
+
+    background-color: blue;
+
+    border-radius: 24px;
+
+    padding-left: 30px;
+
+    padding-top: 10px;
+
+    padding-bottom: 10px;
+
+    padding-right: 30px;
+
+    color: white;
+
+}
+#helld:active{
+
+    bottom: -398px;
+
+    left: 702px;
+
+}
+#botwd:hover{
+
+    cursor: pointer;
+
+}
+#botwd > img{
+
+    width: 220px;
+
+    top: 25px;
+
+    position: relative;
+
+    left: 65px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
+
+}
+#botwd{
+
+    left: 1200px;
+
+    position: absolute;
+
+    bottom: -400px; 
+
+    width: 350px;
+
+    background-color: white;
+
+    border-radius: 24px;
+
+    height: 410px;
+
+    font-family: "inconsolata", monospace;
+
+    color: white;
+
+    margin-bottom: 8%;
+
+    padding-bottom: 80px;
+
+}
+#botwd > a{
+
+    position: absolute;
+
+    left: 100px;
+
+    top: 430px;
+
+    background-color: red;
+
+    border-radius: 24px;
+
+    padding-left: 30px;
+
+    padding-top: 10px;
+
+    padding-bottom: 10px;
+
+    padding-right: 30px;
+
+    color: white;
+
+}
+#botwd:active{
+
+    bottom: -398px;
+
+    left: 1202px;
+
+}
+
+#ps-nav-2{
+
+    color: blue;
+
+}
+
+#xbox-nav-2{
+
+    color: green;
+
+}
+
+#nintendo-nav-2{
+
+    color: red;
+
+}
+#nprodutos{
+
+    position: relative;
+
+    font-family: "inconsolata", monospace;
+
+    color: black;
+
+    margin: 60px;
+
+    margin-top: 200px;
+
+}
+#nprodutos > h1{
+    
+    position: absolute;
+
+    font-family: "Inconsolata", monospace;
+
+    font-weight: 300;
+
+    border-radius: 16px;
+
+    padding: 10px;
+
+    background-color: red;
+
+    color: white;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 10px 10px 15px;
+
+}
+#botw > img{
+
+    width: 220px;
+
+    top: 25px;
+
+    position: absolute;
+
+    left: 65px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
+
+
+}
+#botw{
+
+    left: 200px;
+
+    position: absolute;
+
+    top: 160px;
+
+    width: 350px;
+
+    background-color: white;
+
+    border-radius: 24px;
+  
+    height: 410px;
+
+}
+#botw > p{
+
+    position: absolute;
+
+    left: 46px;
+
+    top: 410px;
+
+    color: red;
+
+}
+#botw:hover{
+
+    cursor: pointer;
+
+}
+#botw:active{
+
+    top: 158px;
+
+    left: 202px;
+
+}
+#maker > img{
+
+    width: 220px;
+
+    top: 25px;
+
+    position: absolute;
+
+    left: 65px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
+
+}
+#maker{
+
+    left: 700px;
+
+    position: absolute;
+
+    top: 160px;
+
+    width: 350px;
+
+    background-color: white;
+
+    border-radius: 24px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 05px 15px;
+
+    height: 410px;
+
+
+}
+#maker > p{
+
+    position: absolute;
+
+    left: 53px;
+
+    top: 410px
+
+}
+#maker:hover{
+
+    cursor: pointer;
+
+}
+#maker:active{
+
+    top: 158px;
+
+    left: 702px;
+
+}
+#luigi:hover{
+
+    cursor: pointer;
+
+}
+#luigi > img{
+
+    width: 220px;
+    border-radius: 16px;
+    top: 25px;
+
+    position: absolute;
+
+    left: 65px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
+
+}
+#luigi{
+
+    left: 1200px;
+
+    position: absolute;
+
+    top: 160px;
+
+    width: 350px;
+    
+    border-radius: 16px;
+
+    background-color: white;
+
+    border-radius: 24px;
+
+    height: 410px;
+
+}
+#luigi > p{
+
+    border-radius: 16px;
+
+    position: absolute;
+
+    left: 68px;
+
+    top: 410px
+    
+}
+#luigi:active{
+
+    top: 158px;
+
+    left: 1202px;
+
+}
+#kart:hover{
+
+    cursor: pointer;
+    border-radius: 16px;
+}
+#kart > img{
+
+    width: 220px;
+
+    top: 25px;
+
+    position: absolute;
+
+    left: 65px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
+
+}
+#kart{
+
+    left: 200px;
+
+    position: absolute;
+
+    top: 680px;
+
+    width: 350px;
+
+    background-color: white;
+
+    border-radius: 24px;
+
+    height: 410px;
+    border-radius: 16px;
+}
+#kart > p{
+
+    position: absolute;
+
+    left: 56px;
+
+    top: 410px
+
+}
+#kart:active{
+
+    top: 678px;
+
+    left: 202px;
+
+}
+#smash:hover{
+
+    cursor: pointer;
+
+}
+#smash > img{
+
+    width: 220px;
+
+    top: 25px;
+
+    position: absolute;
+
+    left: 65px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
+
+}
+#smash{
+
+    left: 700px;
+
+    position: absolute;
+
+    top: 680px;
+
+    width: 350px;
+
+    border-radius: 16px;
+
+    background-color: white;
+
+    border-radius: 24px;
+
+    height: 410px;
+
+}
+#smash > p{
+
+    position: absolute;
+
+    left: 73px;
+
+    top: 410px
+
+}
+#smash:active{
+
+    top: 678px;
+
+    left: 702px;
+
+}
+#splatoon:hover{
+
+    cursor: pointer;
+
+}
+#splatoon > img{
+
+    width: 220px;
+
+    top: 25px;
+
+    position: absolute;
+
+    left: 65px;
+
+    box-shadow: rgba(0, 0, 0, 0.35) 15px 20px 15px;
+
+}
+#splatoon{
+
+    left: 1200px;
+
+    position: absolute;
+
+    top: 680px;
+
+    width: 350px;
+
+    background-color: white;
+
+    border-radius: 24px;
+
+    height: 410px;
+
+}
+#splatoon > p{
+
+    position: absolute;
+
+    left: 95px;
+
+    top: 410px
+
+}
+#splatoon:active{
+
+    top: 678px;
+
+    left: 1202px;
+
+}
+#sugestao{
+
+    font-family: "Incosolata", monospace;
+
+}
+#sug-env{
+
+    font-family: "Incosolata", monospace;
+
+    position: absolute;
+
+    top: 96.7%;
+
+    left: 101%;
+
+}
+#gamesvid{
+
+    width: 80%;
+
+    position: absolute;
+
+    left: 130%;
+
+    top: 10%;
+
+}
