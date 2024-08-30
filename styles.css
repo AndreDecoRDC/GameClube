@@ -724,10 +724,46 @@ footer > p > a{
 
 }
 
-#criador-bruno:hover{
+input{
 
+    position: absolute;
 
+    top: 100%;
+    left: 30%;
+    
+    width: 40%;
 
+    padding: 5px 24px;
+    
+    font-size: 14px;
+    
+    line-height: 20px;
+    
+    color: #24292e;
+    
+    vertical-align: text-top;
+    
+    background-color: #ffffff;
+    
+    background-repeat: no-repeat;
+    
+    background-position: right 8px center;
+    
+    border: 1px solid #e1e4e8;
+    
+    border-radius: 6px;
+    
+    outline: none;
+
+    box-shadow: rgba(225, 228, 232, 0.2) 0px 1px 0px 0px inset;
+    
+
+}
+
+input:focus{
+    border-color: #0366d6;
+    outline: none;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
 }
 
 #fontes{
