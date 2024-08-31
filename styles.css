@@ -491,9 +491,17 @@ footer > p > a{
 
     position: absolute;
 
-    left: 52px;
+    left: 30px;
 
     top: 410px;
+
+    background-color: blue;
+
+    padding: 15px 25px;
+
+    border-radius: 16px;
+
+    color: white;
 
 }
 #hell > img{
@@ -532,13 +540,17 @@ footer > p > a{
 
     position: absolute;
 
-    left: 49px;
+    left: 32px;
 
     top: 410px;
 
-    color: blue;
+    background-color: goldenrod;
 
-    width: 400px;
+    padding: 15px 20px;
+
+    border-radius: 16px;
+
+    color: white;
 
 }
 #gow:hover{
@@ -590,9 +602,17 @@ footer > p > a{
 
     position: absolute;
 
-    left: 50px;
+    left: 30px;
 
-    top: 410px
+    top: 410px;
+
+    background-color: blue;
+
+    padding: 15px 22px;
+
+    border-radius: 16px;
+
+    color: white;
 
 }
 #tlou:active{
@@ -625,18 +645,23 @@ footer > p > a{
     position: absolute;
 
     top: 25%;
-    left: 10%;
-    text-align: center;
-    width: 80%;
-    display: flex;
-    justify-content: space-around;
 
+    left: 10%;
+
+    text-align: center;
+
+    width: 80%;
+
+    display: flex;
+
+    justify-content: space-around;
 
 }
 
 #criadores > #andre-text{
 
     left: 27%;
+
     top: 35%;
 
 }
@@ -644,23 +669,25 @@ footer > p > a{
 #criadores > #fred-text{
 
     left: 57%;
-    top: 35%;
 
+    top: 35%;
 
 }
 
 #criadores > #bruno-text{
 
     left: 93%;
-    top: 35%;
 
+    top: 35%;
 
 }
 
 #criadores > h2{
 
     position: absolute;
+
     font-weight: 400;
+
     opacity: 0;
 
 }
@@ -729,6 +756,7 @@ input{
     position: absolute;
 
     top: 100%;
+
     left: 30%;
     
     width: 40%;
@@ -761,9 +789,13 @@ input{
 }
 
 input:focus{
+
     border-color: #0366d6;
+
     outline: none;
+
     box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
+
 }
 
 #fontes{
@@ -812,9 +844,17 @@ input:focus{
 
     position: absolute;
 
-    left: 72px;
+    left: 45px;
 
-    top: 410px
+    top: 410px;
+
+    background-color: blue;
+
+    padding: 15px 30px;
+
+    border-radius: 16px;
+
+    color: white;
 
 }
 #re4:active{
@@ -863,9 +903,17 @@ input:focus{
 
     position: absolute;
 
-    left: 52px;
+    left: 33px;
 
-    top: 410px
+    top: 410px;
+
+    background-color: blue;
+
+    padding: 15px 21px;
+
+    border-radius: 16px;
+
+    color: white;
 
 }
 #sm2:active{
@@ -914,9 +962,17 @@ input:focus{
 
     position: absolute;
 
-    left: 100px;
+    left: 65px;
 
-    top: 410px
+    top: 410px;
+
+    background-color: blue;
+
+    padding: 15px 30px;
+
+    border-radius: 16px;
+
+    color: white;
 
 }
 #er:active{
@@ -993,9 +1049,17 @@ input:focus{
 
     position: absolute;
 
-    left: 100px;
+    left: 70px;
 
     top: 410px;
+
+    background-color: green;
+
+    padding: 15px 30px;
+
+    border-radius: 16px;
+
+    color: white;
 
 }
 #nba:hover{
@@ -1037,8 +1101,6 @@ input:focus{
 
     border-radius: 24px;
 
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 05px 15px;
-
     height: 410px;
 
 
@@ -1047,9 +1109,17 @@ input:focus{
 
     position: absolute;
 
-    left: 60px;
+    left: 35px;
 
-    top: 410px
+    top: 410px;
+
+    background-color: green;
+
+    padding: 15px 30px;
+
+    border-radius: 16px;
+
+    color: white;
 
 }
 #cod:hover{
@@ -1072,7 +1142,9 @@ input:focus{
 #fz5 > img{
 
     width: 275px;
+
     border-radius: 16px;
+
     top: 25px;
 
     position: absolute;
@@ -1102,12 +1174,22 @@ input:focus{
 
 }
 #fz5 > p{
+
     border-radius: 16px;
+
     position: absolute;
 
-    left: 80px;
+    left: 45px;
 
-    top: 410px
+    top: 410px;
+
+    background-color: green;
+
+    padding: 15px 30px;
+
+    border-radius: 16px;
+
+    color: white;
 
 }
 #fz5:active{
@@ -1156,13 +1238,17 @@ input:focus{
 
     position: absolute;
 
-    left: 39px;
+    left: 25px;
 
     top: 410px;
 
-    color: green;
+    background-color: goldenrod;
 
-    width: 400px;
+    padding: 15px 13px;
+
+    border-radius: 16px;
+
+    color: white;
 
 }
 #halo:active{
@@ -1213,9 +1299,17 @@ input:focus{
 
     position: absolute;
 
-    left: 83px;
+    left: 53px;
 
-    top: 410px
+    top: 410px;
+
+    background-color: green;
+
+    padding: 15px 30px;
+
+    border-radius: 16px;
+
+    color: white;
 
 }
 #nfl:active{
@@ -1264,9 +1358,17 @@ input:focus{
 
     position: absolute;
 
-    left: 88px;
+    left: 53px;
 
-    top: 410px
+    top: 410px;
+
+    background-color: green;
+
+    padding: 15px 30px;
+
+    border-radius: 16px;
+
+    color: white;
 
 }
 #sw:active{
@@ -1397,7 +1499,9 @@ input:focus{
     text-decoration: none;
 
     width: 83%;
+
     padding-top: 7%;
+
     padding-bottom: 7%;
 
     text-align: center;
@@ -1445,7 +1549,9 @@ input:focus{
     height: 410px;
 
     font-family: "Bebas Neue", sans-serif;
+
     font-weight: 400;
+
     font-size: 24px;
 
     color: white;
@@ -1528,7 +1634,9 @@ input:focus{
     height: 410px;
 
     font-family: "Bebas Neue", sans-serif;
+
     font-weight: 400;
+
     font-size: 24px;
 
     color: white;
@@ -1612,7 +1720,9 @@ input:focus{
     height: 410px;
 
     font-family: "Bebas Neue", sans-serif;
+
     font-weight: 400;
+
     font-size: 24px;
 
     color: white;
@@ -1916,11 +2026,19 @@ input:focus{
 
     position: absolute;
 
-    left: 46px;
+    left: 25px;
 
     top: 410px;
 
-    color: red;
+    color: white;
+
+    background-color: goldenrod;
+
+    padding: 15px 24px;
+
+    border-radius: 16px;
+
+    color: white;
 
 }
 #botw:hover{
@@ -1962,8 +2080,6 @@ input:focus{
 
     border-radius: 24px;
 
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 05px 15px;
-
     height: 410px;
 
 
@@ -1972,9 +2088,17 @@ input:focus{
 
     position: absolute;
 
-    left: 53px;
+    left: 30px;
 
-    top: 410px
+    top: 410px;
+
+    background-color: red;
+
+    padding: 15px 28px;
+
+    border-radius: 16px;
+
+    color: white;
 
 }
 #maker:hover{
@@ -2028,13 +2152,19 @@ input:focus{
 }
 #luigi > p{
 
-    border-radius: 16px;
-
     position: absolute;
 
-    left: 68px;
+    left: 33px;
 
-    top: 410px
+    top: 410px;
+
+    background-color: red;
+
+    padding: 15px 29px;
+
+    border-radius: 16px;
+
+    color: white;
 
 }
 #luigi:active{
@@ -2077,15 +2207,26 @@ input:focus{
     border-radius: 24px;
 
     height: 410px;
+
     border-radius: 16px;
+
 }
 #kart > p{
 
     position: absolute;
 
-    left: 56px;
+    left: 28px;
 
-    top: 410px
+    top: 410px;
+
+    background-color: red;
+
+    padding: 15px 27px;
+
+    border-radius: 16px;
+
+    color: white;
+
 
 }
 #kart:active{
@@ -2136,9 +2277,18 @@ input:focus{
 
     position: absolute;
 
-    left: 73px;
+    left: 44px;
 
-    top: 410px
+    top: 410px;
+
+    background-color: red;
+
+    padding: 15px 30px;
+
+    border-radius: 16px;
+
+    color: white;
+
 
 }
 #smash:active{
@@ -2187,9 +2337,17 @@ input:focus{
 
     position: absolute;
 
-    left: 95px;
+    left: 65px;
 
-    top: 410px
+    top: 410px;
+
+    background-color: red;
+
+    padding: 15px 30px;
+
+    border-radius: 16px;
+
+    color: white;
 
 }
 #splatoon:active{
