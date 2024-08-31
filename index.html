@@ -51,16 +51,68 @@
         <h1>Produtos em promoção:</h1>
 
         <div id="halod">
-            <img src="imgs/halo-infinite_hgkc.jpg" alt="halo destaque">
+            <img src="imgs/halo-infinite_hgkc.jpg" alt="halo destaque" id="myImg3">
             <a href="xbox.html">Confira já</a>
         </div>
+
         <div id="helld">
-            <img src="imgs/helld.jpg" alt="helldivers destaque">
+            <img src="imgs/helld.jpg" alt="helldivers destaque" id="myImg2">
             <a href="ps.html">Confira já</a>
         </div>
         <div id="botwd">
-            <img src="imgs/botw.png" alt="zelda botw destaque">
+            <img src="imgs/botw.png" alt="zelda botw destaque" id="myImg">
             <a href="nintendo.html">Confira já</a>
+        </div>
+
+        <div id="myModal" class="modal">   
+    
+            <div class="product-content">
+    
+                <img src="imgs/botw.png">
+    
+                <h1>The Legend of Zelda Breath of the Wild</h1>
+                <p>The Legend of Zelda: Breath of the Wild é um jogo eletrônico de ação-aventura desenvolvido pela Nintendo Entertainment Planning & Development e publicado pela Nintendo. É o décimo nono título da série The Legend of Zelda e foi lançado mundialmente para Wii U e Nintendo Switch em 3 de março de 2017.</p>
+    
+                <h2>R$229,98</h2>
+    
+                <button onclick="closeProduct()">Adicionar ao Carrinho</button>
+    
+            </div>
+    
+        </div>
+
+        <div id="myModal2" class="modal">   
+    
+            <div class="product-content">
+    
+                <img src="imgs/helld.jpg">
+    
+                <h1>Helldivers II</h1>
+                <p>Helldivers 2 é um jogo cooperativo de tiro em terceira pessoa de 2024 desenvolvido pela Arrowhead Game Studios e publicado pela Sony Interactive Entertainment. O jogo é a sequência direta de Helldivers, um jogo de de estilo Shoot'em up de 2015. Foi lançado para PlayStation 5 e Windows em 8 de fevereiro de 2024.</p>
+    
+                <h2>R$122,67</h2>
+    
+                <button onclick="closeProduct()">Adicionar ao Carrinho</button>
+    
+            </div>
+    
+        </div>
+
+        <div id="myModal3" class="modal">   
+    
+            <div class="product-content">
+    
+                <img src="imgs/halo-infinite_hgkc.jpg">
+    
+                <h1>Halo Infinite</h1>
+                <p>Halo Infinite é um jogo eletrônico de tiro em primeira pessoa desenvolvido pela 343 Industries e publicado pela Xbox Game Studios. Foi lançado em 8 de dezembro de 2021 para Microsoft Windows, Xbox One e Xbox Series X/S. </p>
+    
+                <h2>R$122,67</h2>
+    
+                <button onclick="closeProduct()">Adicionar ao Carrinho</button>
+    
+            </div>
+    
         </div>
 
     </section>
@@ -74,6 +126,7 @@
     </footer>
 
     <script src="banner.js"></script>
+    <script src="produto.js"></script>
 
 </body>
 </html>
