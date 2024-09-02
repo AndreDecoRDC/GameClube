@@ -3,40 +3,49 @@ var modal = document.getElementById('myModal');
 var modal2 = document.getElementById('myModal2');
 var modal3 = document.getElementById('myModal3');
 
-var img = document.getElementById('myImg');
-var img2 = document.getElementById('myImg2');
-var img3 = document.getElementById('myImg3');
+var b1 = document.getElementById('butbotwd');
+var b2 = document.getElementById('buthelld');
+var b3 = document.getElementById('buthalo');
 var modalImg = document.getElementById("img01");
 var content = document.getElementsByClassName("product-content")
 
-img.onclick = function(){
+b1.onclick = function(){
 
   modal.style.display = "block";
   content.style.animationDirection = "normal";
 
 }
 
-img2.onclick = function(){
+b2.onclick = function(){
 
   modal2.style.display = "block";
   content.style.animationDirection = "normal";
 
 }
 
-img3.onclick = function(){
+b3.onclick = function(){
 
   modal3.style.display = "block";
   content.style.animationDirection = "normal";
 
 }
 
-function closeProduct(){
+function changeXbox(){
 
-  modal.style.display = "none";
-  modal2.style.display = "none";
-  modal3.style.display = "none";
-  
+  window.location.href = "xbox.html"
+
 }
 
+function changePS(){
+
+  window.location.href = "ps.html"
+
+}
+
+function changeNintendo(){
+
+  window.location.href = "nintendo.html"
+
+}
 
 

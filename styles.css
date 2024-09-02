@@ -2470,12 +2470,24 @@ input:focus{
     position: absolute;
     display: inline-block;
 
-    left: 45%;
-    top: 20%;
+    left: 49%;
+    top: 15%;
 
     font-family: 'Roboto', sans-serif;
-    font-size: 40px;
+    font-size: 56px;
     font-weight: 300;
+
+}
+
+#helldh1{
+
+    left: 58%;
+
+}
+
+#haloh1{
+
+    left: 57%;
 
 }
 
@@ -2488,7 +2500,7 @@ input:focus{
     top: 45%;
 
     font-family: 'Roboto', sans-serif;
-    font-size: 36px;
+    font-size: 44px;
     font-weight: 700;
 
 }
@@ -2511,6 +2523,8 @@ input:focus{
 }
 
 .product-content > button{
+
+    text-decoration: none;
 
     position: absolute;
     display: inline-block;
