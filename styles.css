@@ -530,9 +530,7 @@ footer > p > a{
     background-color: white;
 
     border-radius: 24px;
-
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 05px 15px;
-
+    
     height: 410px;
 
 }
@@ -1428,6 +1426,242 @@ input:focus{
         font-weight: 300;
 
 }
+
+#halod > img{
+
+    width: 100%;
+
+    position: absolute;
+
+    border-radius: 24px;
+
+}
+
+#halod{
+
+    left: 10%;
+
+    position: absolute;
+
+    margin-top: 55%;
+
+    bottom: -400px;
+
+    width: 350px;
+
+    background-color: white;
+
+    border-radius: 24px;
+
+    height: 410px;
+
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+
+    color: white;
+
+    margin-bottom: 8%;
+
+    padding-bottom: 80px;
+
+}
+#halod > a{
+
+    position: absolute;
+
+    left: 0;
+
+    top: 460px;
+
+    background-color: green;
+
+    border-bottom: 1px green solid;
+
+    border-radius: 12px;
+
+    padding-left: 30px;
+
+    padding-top: 10px;
+
+    padding-bottom: 10px;
+
+    padding-right: 30px;
+
+    color: white;
+
+    text-decoration: none;
+
+    width: 83%;
+
+    padding-top: 7%;
+
+    padding-bottom: 7%;
+
+    text-align: center;
+
+}
+
+#helld:hover{
+
+    cursor: pointer;
+
+}
+#helld > img{
+
+    width: 100%;
+
+    position: absolute;
+
+    border-radius: 24px;
+
+}
+
+#helld{
+
+    left: 700px;
+
+    position: absolute;
+
+    margin-top: 55%;
+
+    bottom: -400px;
+
+    width: 350px;
+
+    background-color: white;
+
+    border-radius: 24px;
+
+    height: 410px;
+
+    font-family: "Bebas Neue", sans-serif;
+
+    font-weight: 400;
+
+    font-size: 24px;
+
+    color: white;
+
+    margin-bottom: 8%;
+
+    padding-bottom: 80px;
+
+}
+#helld > a{
+
+    position: absolute;
+
+    left: 0;
+
+    top: 460px;
+
+    background-color: blue;
+
+    border-radius: 12px;
+
+    padding-left: 30px;
+
+    padding-top: 10px;
+
+    padding-bottom: 10px;
+
+    padding-right: 30px;
+
+    color: white;
+
+    text-decoration: none;
+
+    width: 83%;
+
+    padding-top: 7%;
+
+    padding-bottom: 7%;
+
+    text-align: center;
+
+}
+
+#botwd:hover{
+
+    cursor: pointer;
+
+}
+#botwd > img{
+
+    width: 100%;
+
+    position: absolute;
+
+    border-radius: 24px;
+
+}
+#botwd{
+
+    left: 1200px;
+
+    position: absolute;
+
+    margin-top: 55%;
+
+    bottom: -400px;
+
+    width: 350px;
+
+    background-color: white;
+
+    border-radius: 24px;
+
+    height: 410px;
+
+    font-family: "Bebas Neue", sans-serif;
+
+    font-weight: 400;
+
+    font-size: 24px;
+
+    color: white;
+
+    margin-bottom: 8%;
+
+    padding-bottom: 80px;
+
+
+}
+#botwd > a{
+
+    position: absolute;
+
+    left: 0;
+
+    top: 460px;
+
+    background-color: red;
+
+    border-radius: 12px;
+
+    padding-left: 30px;
+
+    padding-top: 10px;
+
+    padding-bottom: 10px;
+
+    padding-right: 30px;
+
+    color: white;
+
+    text-decoration: none;
+
+    width: 83%;
+
+    padding-top: 7%;
+
+    padding-bottom: 7%;
+
+    text-align: center;
+
+}
+
 #halod:hover{
 
     cursor: pointer;
@@ -1462,264 +1696,6 @@ input:focus{
     height: 410px;
 
     font-family: "Bebas Neue", sans-serif;
-    font-weight: 400;
-    font-size: 24px;
-
-    color: white;
-
-    margin-bottom: 8%;
-
-    padding-bottom: 80px;
-
-}
-#halod > a{
-
-    position: absolute;
-
-    left: 0;
-
-    top: 460px;
-
-    background-color: green;
-
-    border-bottom: 1px green solid;
-
-    border-radius: 12px;
-
-    padding-left: 30px;
-
-    padding-top: 10px;
-
-    padding-bottom: 10px;
-
-    padding-right: 30px;
-
-    color: white;
-
-    text-decoration: none;
-
-    width: 83%;
-
-    padding-top: 7%;
-
-    padding-bottom: 7%;
-
-    text-align: center;
-
-}
-
-#halod:active{
-
-    bottom: -398px;
-
-    left: 10.1%;
-
-}
-#helld:hover{
-
-    cursor: pointer;
-
-}
-#helld > img{
-
-    width: 100%;
-
-    position: absolute;
-
-    border-radius: 24px;
-
-}
-
-#helld{
-
-    left: 700px;
-
-    position: absolute;
-
-    margin-top: 55%;
-
-    bottom: -400px;
-
-    width: 350px;
-
-    background-color: white;
-
-    border-radius: 24px;
-
-    height: 410px;
-
-    font-family: "Bebas Neue", sans-serif;
-
-    font-weight: 400;
-
-    font-size: 24px;
-
-    color: white;
-
-    margin-bottom: 8%;
-
-    padding-bottom: 80px;
-
-}
-#helld > a{
-
-    position: absolute;
-
-    left: 0;
-
-    top: 460px;
-
-    background-color: blue;
-
-    border-radius: 12px;
-
-    padding-left: 30px;
-
-    padding-top: 10px;
-
-    padding-bottom: 10px;
-
-    padding-right: 30px;
-
-    color: white;
-
-    text-decoration: none;
-
-    width: 83%;
-
-    padding-top: 7%;
-
-    padding-bottom: 7%;
-
-    text-align: center;
-
-}
-#helld:active{
-
-    bottom: -398px;
-
-    left: 702px;
-
-}
-#botwd:hover{
-
-    cursor: pointer;
-
-}
-#botwd > img{
-
-    width: 100%;
-
-    position: absolute;
-
-    border-radius: 24px;
-
-}
-#botwd{
-
-    left: 1200px;
-
-    position: absolute;
-
-    margin-top: 55%;
-
-    bottom: -400px;
-
-    width: 350px;
-
-    background-color: white;
-
-    border-radius: 24px;
-
-    height: 410px;
-
-    font-family: "Bebas Neue", sans-serif;
-
-    font-weight: 400;
-
-    font-size: 24px;
-
-    color: white;
-
-    margin-bottom: 8%;
-
-    padding-bottom: 80px;
-
-
-}
-#botwd > a{
-
-    position: absolute;
-
-    left: 0;
-
-    top: 460px;
-
-    background-color: red;
-
-    border-radius: 12px;
-
-    padding-left: 30px;
-
-    padding-top: 10px;
-
-    padding-bottom: 10px;
-
-    padding-right: 30px;
-
-    color: white;
-
-    text-decoration: none;
-
-    width: 83%;
-
-    padding-top: 7%;
-
-    padding-bottom: 7%;
-
-    text-align: center;
-
-}
-#botwd:active{
-
-    bottom: -398px;
-
-    left: 1202px;
-
-}#halod:hover{
-
-    cursor: pointer;
-
-}
-#halod > img{
-
-    width: 100%;
-
-    position: absolute;
-
-    border-radius: 24px;
-
-}
-
-#halod{
-
-    left: 10%;
-
-    position: absolute;
-
-    margin-top: 55%;
-
-    bottom: -400px;
-
-    width: 350px;
-
-    background-color: white;
-
-    border-radius: 24px;
-
-    height: 410px;
-
-    font-family: "Bebas Neue", sans-serif;
 
     font-weight: 400;
 
@@ -1766,13 +1742,6 @@ input:focus{
 
 }
 
-#halod:active{
-
-    bottom: -398px;
-
-    left: 10.1%;
-
-}
 #helld:hover{
 
     cursor: pointer;
@@ -1850,13 +1819,7 @@ input:focus{
     text-align: center;
 
 }
-#helld:active{
 
-    bottom: -398px;
-
-    left: 702px;
-
-}
 #botwd:hover{
 
     cursor: pointer;
@@ -1932,13 +1895,6 @@ input:focus{
     padding-bottom: 7%;
 
     text-align: center;
-
-}
-#botwd:active{
-
-    bottom: -398px;
-
-    left: 1202px;
 
 }
 
@@ -2357,12 +2313,6 @@ input:focus{
     left: 1202px;
 
 }
-
-#myImg:hover {opacity: 0.7;}
-
-#myImg2:hover {opacity: 0.7;}
-
-#myImg3:hover {opacity: 0.7;}
 
 .product-content{  
 
